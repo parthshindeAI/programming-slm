@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# SLM project files
+data/raw/
+data/processed/
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Experiment tracking and logs
+wandb/
+logs/
+
+# Local VS Code settings
+.vscode/
